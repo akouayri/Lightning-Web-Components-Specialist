@@ -1,3 +1,5 @@
+Source for projects in the [Build LWC](https://trailhead.salesforce.com/en/content/learn/trails/build-lightning-web-components) trail.
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
