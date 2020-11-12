@@ -7,7 +7,9 @@ name: Master Branch Workflow
 on:
   push:
     branches: [master]
-
+    # Only trigger a workflow when changes have been made to files in the below mentioned path.
+    paths:
+      - "force-app/**"
 env:
   SF_ORG__AUTH_URL: ${{ secrets.SF_ORG__AUTH_URL }}
 
@@ -25,6 +27,6 @@ jobs:
         run: |
           echo $SF_ORG__AUTH_URL > authURLFile
           sfdx force:auth:sfdxurl:store -f authURLFile -s -a LWC
-          
+
       - name: Deploy Changes
         run: sfdx force:source:deploy -p force-app/main/default
