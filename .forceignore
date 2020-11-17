@@ -13,3 +13,4 @@ package.xml
 
 # Ignore Profiles
 **profiles
+**appMenu
