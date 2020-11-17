@@ -8,13 +8,9 @@
         <name>backgroundComponents</name>
         <type>Background</type>
     </flexiPageRegions>
-    <masterLabel>Friend Ships UtilityBar</masterLabel>
+    <masterLabel>Friends with Boats UtilityBar</masterLabel>
     <template>
         <name>one:utilityBarTemplateDesktop</name>
-        <properties>
-            <name>isLeftAligned</name>
-            <value>true</value>
-        </properties>
     </template>
     <type>UtilityBar</type>
 </FlexiPage>
