@@ -5,6 +5,7 @@ import BOATMC from "@salesforce/messageChannel/BoatMessageChannel__c";
 import { publish, MessageContext } from "lightning/messageService";
 import { refreshApex } from "@salesforce/apex";
 import { ShowToastEvent } from "lightning/platformShowToastEvent";
+import updateBoatList from "@salesforce/apex/BoatDataService.updateBoatList";
 const SUCCESS_TITLE = "Success";
 const MESSAGE_SHIP_IT = "Ship it!";
 const SUCCESS_VARIANT = "success";
