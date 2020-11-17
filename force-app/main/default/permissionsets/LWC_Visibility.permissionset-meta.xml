@@ -7,6 +7,10 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>Friend_Ships</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Working_with_Data</tab>
         <visibility>Visible</visibility>
     </tabSettings>
